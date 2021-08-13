@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-hover{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacing{
+    padding: 10px;
+}
+
+.burger{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms;
+}
+
+.bar{
+    width: 80px;
+    height: 5px;
+    margin: 8px;
+    background-color: black;
+    transition: all 200ms;
+}
+
+.burger:hover .bar1{
+    transform: translateY(21px) rotateZ(45deg);
+}
+
+.burger:hover .bar3{
+    transform: translateY(-21px) rotateZ(-45deg);
+}
+
+.burger:hover .bar2{
+    transform: scale(0.0);
+}
+
+.burger:hover{
+    transform: scale(1.1);
+}
+
+.burger2{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    transition: all 200ms;
+}
+
+
+.barx{
+    margin: 8px;
+    background-color: black;
+    transition: all 200ms;
+}
+
+.bar4{
+    width: 40px;
+    height: 5px;
+}
+
+.bar5{
+    width: 60px;
+    height: 5px;
+}
+
+.bar6{
+    width: 80px;
+    height: 5px;
+}
+
+.burger2:hover .bar4{
+    transform: translateX(40px);
+}
+
+.burger2:hover{
+    transform: scale(1.1);
+}
+
+.burger2:hover .bar5{
+    transform: translateX(20px);
+}
+
+.bary{
+    margin: 8px;
+    background-color: black;
+    transition: all 200ms;
+}
+
+.bar7{
+    width: 80px;
+    height: 5px;
+}
+
+.bar8{
+    width: 40px;
+    height: 5px;
+}
+
+.bar9{
+    width: 80px;
+    height: 5px;
+}
+
+.burger:hover .bar7{
+    width: 40px;
+}
+
+
+.burger:hover .bar8{
+    width: 80px;
+}
+
+
+.burger:hover .bar9{
+    width: 40px;
+}
+
+
+.bar10{
+    width: 40px;
+    height: 5px;
+}
+
+.bar11{
+    width: 60px;
+    height: 5px;
+}
+
+.bar12{
+    width: 80px;
+    height: 5px;
+}
+
+.burger2:hover .bar10{
+    width: 80px;
+    transform: translateY(21px) rotateZ(45deg);
+}
+
+.burger2:hover .bar12{
+    width: 80px;
+    transform: translateY(-21px) rotateZ(-45deg);
+}
+
+.burger2:hover .bar11{
+    width: 80px;
+    transform: scale(0.0) translateX(-90px);
+}
+
