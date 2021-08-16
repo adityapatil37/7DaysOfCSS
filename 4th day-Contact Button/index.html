@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icons">
+            <div class="FAB">+</div>
+            <a title="Call" class="icon call" href="tel:+919632818888">
+                <div><i class="fas fa-phone-alt"></i></div>
+            </a>
+            <a title="Email" class="icon email" target="_blank" href="mailto:adityapa37@gmail.com">
+                <div><i class="fas fa-envelope"></i></div>
+            </a>
+            <a title="Subscribe to Newsletter" class="icon news" target="_blank" href="https://bosslog.wixsite.com/blogsbay">
+                <div><i class="fas fa-bell"></i></div>
+            </a>
+            <a title="Location" class="icon location" target="_blank" href="https://www.google.co.in/maps/place/Karpakpalli,+Karnataka+585227/@17.6319349,77.4106053,196m/data=!3m1!1e3!4m5!3m4!1s0x3bc932c8971ae837:0xb396406e06034914!8m2!3d17.6352532!4d77.40708?hl=en&authuser=0">
+                <div><i class="fas fa-map-marker-alt"></i></div>
+            </a>
+            <a title="WhatsApp" class="icon whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=+919632818888">
+                <div><i class="fab fa-whatsapp"></i></div>
+            </a>
+            <a title="Instagram" class="icon insta" target="_blank" href="https://www.instagram.com/im_aditya_patil/">
+                <div><i class="fab fa-instagram"></i></div>
+            </a>
+            <a title="LinkedIn" class="icon linkedin" target="_blank" href="https://www.linkedin.com/in/adityapatil37">
+                <div><i class="fab fa-linkedin"></i></div>
+            </a>
+            <a title="YouTube" class="icon youtube" target="_blank" href="https://t.me/imAdityaPatil">
+                <div><i class="fab fa-telegram"></i></div>
+            </a>
+        </div>
+    </div>
+    <script>
+        const fab = document.querySelector(".FAB");
+const icons = document.querySelector(".icons");
+
+fab.addEventListener("click", () => {
+    fab.classList.toggle("click");
+    icons.classList.toggle("open");
+});
+
+    </script>
+    
+</body>
+</html>
